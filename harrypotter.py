@@ -11,7 +11,7 @@ if response.status_code == 200:
         if isinstance(year_of_birth, int) and 0 <= year_of_birth <= 4000:
             print(character['name'] + "\tOynayan aktöri: " +
                   character['actor'] + "\t saç rengi: "+
-                  character['hairColour'] + "\tgöz rengi: " +
+                  character['hairColour'] + "\tgöz rengi:" +
                   character['eyeColour'] + "\t doğum tarihi: " +
                   str(year_of_birth))
 else:
