@@ -10,6 +10,6 @@ try:
     image = Image.open(BytesIO(response.content))
     image.show()
 except requests.RequestException as e:
-    print("Ağ isteği hatası:", e)
+    print("Ağ isteği hatası: ", e)
 except Exception as e:
     print("Hata:", e)
