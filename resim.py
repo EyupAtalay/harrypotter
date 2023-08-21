@@ -12,4 +12,4 @@ try:
 except requests.RequestException as e:
     print("Ağ isteği hatası: ", e)
 except Exception as e:
-    print("Hata:", e)
+    print("Hata: ", e)
